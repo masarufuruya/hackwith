@@ -1,0 +1,179 @@
+body {
+  /* Verdanaで指定したらHelvetica Neueになるのはなぜ? */
+  font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+h1, h2, ul {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-container {
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.12),0px 4px 4px 0px rgba(0,0,0,0.24);
+
+}
+
+.top-bar {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 5px;
+  height: 60px;
+  font-size: 16px;
+}
+
+.top-bar .logo {
+  float: left;
+  margin-top: 13px;
+}
+
+.top-bar .login-button {
+  float: right;
+  background-color: #dc5041;
+  border-color: #c63424;
+  color: #ffffff;
+  padding: 5px 15px;
+  margin-top: 7px;
+}
+
+.top-image  {
+  width: 100%;
+  height: 520px;
+  padding-top: 60px;
+  background-image: url('http://peatix.com/.v1.691/static/images/top/slidejp2.jpg');
+}
+
+.concept {
+  width: 1060px;
+  margin: 0 auto;
+  padding: 125px 0 0 0;
+  color: #ffffff;
+}
+
+.concept .title {
+  margin-bottom: 28px !important;
+}
+
+.fb-login {
+  font-size: 18px;
+  margin-top: 58px;
+}
+
+.fb-login .btn {
+  border: 0px;
+}
+
+.fb-login .btn-social {
+  line-height: 47px;
+  font-size: 18px;
+}
+
+.fb-login .btn-social>:first-child {
+  border-right: 0px;
+}
+
+.fb-login .login-icon {
+  line-height: 57px !important;
+  margin: 2px 0px 0px 8px;
+}
+
+.catch-copy {
+  text-align: center;
+  color: #ffffff;
+}
+
+.fb-login {
+  text-align: center;
+}
+
+.contents {
+  /* 一番親要素の.contentsを幅可変にすることで中身もブラウザの幅に応じて可変になる */
+  width: 100%;
+}
+
+.container {
+  width: 940px;
+  padding: 15px 0 50px 0; /* bootstrap上書き */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.new-topics {
+  width: 1060px;
+  margin: 0 auto 60px auto;
+}
+
+.hackathon-info {
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: relative;
+}
+
+.hackathon-info:hover {
+  background-color: #FAFAFA;
+  box-shadow: 0 0 4px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 4px rgba(0,0,0,0.3);;
+  cursor: pointer;
+}
+
+.hackathon-thumbnail {
+  position: absolute;
+}
+
+.hackathon-detail {
+  padding-left: 80px;
+}
+
+.clear:after {
+  content: '.';
+  display: block;
+  clear: both;
+}
+
+.event-box {
+  width: 220px;
+  margin: 15px 15px 15px 0px;
+  border: 1px solid #cccccc;
+  box-shadow: 1px 1px 3px #dddddd
+}
+
+.event-box-header {
+  height: 39px;
+}
+
+.event-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.event-thumnail {
+  display: block;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  height: 158px;
+  width: 220px;
+}
+
+.event-box-title {
+  padding: 6px 5px 8px 5px;
+}
+
+.footer p {
+  padding: 20px 0;
+  margin-bottom: 0px;
+  border-top: 2px solid #e3e3e3;
+  text-align: center;
+}
+
+}
